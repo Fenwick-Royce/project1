@@ -12,101 +12,68 @@ body {
             #2c57de,
             #1f3bd5,
             #2111c9);
+    font-family: Verdana;
+    font-size: 1.2em;
 }
 
 header {
-    background-color: blue;
     border: 0.5px solid black;
     box-shadow: 2px lightblue;
     text-align: left;
 }
 
 h1 {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 25px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+    text-shadow: 2px 2px 1px skyblue;
+    text-align: center;
     color: aqua;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    text-shadow: 1px 1px 1px blue;
 }
 
 h2 {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 25px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+    text-shadow: 0px 2px 2px skyblue;
+    text-align: center;
     color: aqua;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: bold;
-    font-variant: normal;
-    text-transform: none;
-    text-shadow: 1px 1px 1px blue;
 }
 
 div {
     float: left;
     border: 4px solid lightblue;
-    background: rgb(54, 33, 87)
+    background: rgb(54, 33, 87);
 }
 
 p {
-    font-family: Verdana, Geneva, sans-serif;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: aqua;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    text-shadow: 1px 1px 1px blue;
-}
-
-b {
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 12px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    color: aqua;
-    font-weight: normal;
-    text-decoration: none;
-    font-style: normal;
-    font-variant: normal;
-    text-transform: none;
-    text-shadow: 1px 1px 1px blue;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
     background-color: white;
     text-align: center;
-    height: 30px;
+    height: 100px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px skyblue;
 }
 
 main {
-    border: 2px solid darkblue;
+    border: 2px solid black;
 }
 
 section {
     image-rendering: auto;
     text-align: center;
+    border: 2px solid black;
+    box-shadow: 2px 2px 1px skyblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 article {
-    background-color: blue;
     border: 0.5px solid black;
-    box-shadow: 2px lightblue;
     text-align: center;
 }
 
 footer {
     border: 0.5px solid black;
-    background-color: rgb(54, 33, 87);
     text-align: center;
 }
 
@@ -166,7 +133,7 @@ li {
 .skillsbutton {
     background-color: aliceblue;
     box-shadow: 2px 5px 2px blue;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .skillsbutton:hover {
@@ -178,7 +145,7 @@ li {
 .hobbiesbutton {
     background-color: aliceblue;
     box-shadow: 2px 5px 2px blue;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .hobbiesbutton:hover {
@@ -190,7 +157,7 @@ li {
 .contactbutton {
     background-color: aliceblue;
     box-shadow: 2px 5px 2px blue;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .contactbutton:hover {
