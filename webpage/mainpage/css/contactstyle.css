@@ -1,5 +1,17 @@
 body {
-    background-color: darkslateblue;
+    background-image: linear-gradient(to right top,
+            #6d6bd1,
+            #6e77d7,
+            #7083dc,
+            #758fe0,
+            #7b9ae3,
+            #7294e4,
+            #688fe6,
+            #5e89e7,
+            #4371e4,
+            #2c57de,
+            #1f3bd5,
+            #2111c9);
 }
 
 div {
@@ -15,9 +27,17 @@ header {
 }
 
 h1 {
-    text-shadow: 5px 10px 5px skyblue;
-    text-align: center;
-    color: aqua
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: lightblue;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow: 1px 1px 1px blue;
 }
 
 nav {
@@ -54,7 +74,17 @@ li {
 }
 
 p {
-    color: aqua
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: lightblue;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-shadow: 1px 1px 1px blue;
 }
 
 label {
